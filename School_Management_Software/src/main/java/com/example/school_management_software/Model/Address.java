@@ -16,7 +16,6 @@ import lombok.NoArgsConstructor;
 public class Address {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @NotEmpty(message = "area must not be empty")
